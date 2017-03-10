@@ -12,21 +12,29 @@
             h1, p {
                 margin: 10px 0 10px 10px;
             }
+            myHeader {
+                font-size: 22px;
+                background-color: #CCC;
+            }
         </style>
       
     </head>
     <body>
+    <myHeader>
+    some test
+    </myHeader>
        	<h1 id="myH1">This is text</h1>
        	<p>This is some body copy, updated!!</p>
         <p>This is updated copy</p>
 
         <script>
          	var myH1 =document.getElementById('myH1');
-         	myH1.buttonMode = true;
+         	var p1 = {name:"Mark", lastName:"Styrczula"}
 
          	function btnClick(){
-         		console.log("btn clicked");
+         		document.getElementById("myH1").innerHTML = p1.name + " " + p1.lastName;
          	}
+
 
             myH1.onclick = btnClick;
 
