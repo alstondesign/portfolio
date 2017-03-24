@@ -14,19 +14,24 @@ body{
     margin: 0;
 }
 
-/*
-@media (min-width: 768px) {
-	#mainContainer {
-		max-width: 768px;
+
+@media (max-width: 500px) {
+	#logo {
+		width: 150px;
+	    height: auto;
+	    margin: 26px 0 0 10px !important;
+}
 	}
 
 }
 
 @media (min-width: 992px) {
-	#mainContainer {
-		max-width: 992px;
+	#logo {
+		width: 100%;
+	    height: auto;
 	}
 }
+/*
 @media (min-width: 1024px) {
 	#mainContainer {
 		max-width: 1024px;
