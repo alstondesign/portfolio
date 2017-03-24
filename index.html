@@ -2,60 +2,37 @@
 <html lang="eng">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>ALSTONDESIGN</title>
-        <style type="text/css">
-            body{
-                text-rendering: optimizeLegibility; 
-                padding: 0;
-                margin: 0;
-            }
-            h1, p {
-                margin: 10px 0 10px 10px;
-            }
-            myHeader {
-                min-height: 150px;
-                font-size: 22px;
-                
-            }
-            myHeader div:first-child {
-                width: 300px;
-                background-color: #CCC;
-            }
-        </style>
-      
+        
+        <title>ALSTON DESIGN | Chicago Front End Developer</title>
+        <meta name="Chicago Front end Developer" content="Front end developer focusing on user experience and eligant code">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-    <myHeader>
-    <div>
-    some test
+        
+    <div id="mainContainer">
+    	<img id="logo" src="images/logo.gif">
+    	<div id="bannerCopy">
+    		
+	    	Freelance Front<br/>end developer
+	    	<img src="images/mail.gif">
+    	</div>
+    	<div id="buttonHolder">
+	    	<div id="section1" class="navButtons">
+	    		section1
+	    	</div>
+	    	<div id="section2" class="navButtons">
+	    		section2
+	    	</div>
+	    	<div id="section3" class="navButtons">
+	    		section3
+	    	</div>
+	    </div>
     </div>
-    <div>
-    some test2
+
     </div>
-    </myHeader>
-       	<h1 id="myH1">This is text</h1>
-       	<p>This is some body copy, updated!!</p>
-        <p>This is updated copy</p>
 
-        <input type="name" id="inputBox">
-
-        <script>
-            var inputBoxValue;
-         	var myH1 =document.getElementById('myH1');
-         	var p1 = {name:"Foo", lastName:"Bar"}
-
-         	function btnClick(){
-                inputBoxValue = document.getElementById('inputBox').value;
-                inputBoxValue = inputBoxValue *.02;
-                p1[0] = "Hello";
-                p1[1] = "World";
-                document.getElementById("myH1").innerHTML = p1[0] + " " + p1[1] + " " + inputBoxValue;
-                console.log(p1[0]);
-         	}
-
-            myH1.onclick = btnClick;
-
-        </script>
     </body>
 </html>
