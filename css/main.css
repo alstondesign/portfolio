@@ -21,10 +21,14 @@ body{
 	    height: auto;
 	    margin: 25px 0 0 10px !important;
 	}
+	#headerWrapper{
+		position: fixed;
+	}
 	#sectionHolder {
 		flex-direction: column;
 	}
 	.sections {
+		margin: 0 auto 0 auto;
 		width: 337px;
 	}
 }
